@@ -7,6 +7,10 @@
 example in the file [how_to_use.py](examples%2Fhow_to_use.py)
   
 ## How to install
+``` bash
+pip install https://github.com/nkeff/CTkNavbar/releases/download/v.0.1.0/ctknavbar-0.1.0-py3-none-any.whl
+```
+or 
 1) copy `ctk_navbar.py` file in your project
 2) You must have [customtkinter](https://github.com/TomSchimansky/CustomTkinter) library installed
 
@@ -15,7 +19,7 @@ example in the file [how_to_use.py](examples%2Fhow_to_use.py)
 ```python
 import customtkinter
 
-from ctk_navbar import CTkNavbar
+from ctknavbar import CTkNavbar
 
 if __name__ == "__main__":
 
@@ -42,7 +46,7 @@ Also, if there are a large number of frames, you can use the `CtkNavbar.render()
 manual function to optimize the number of calls to the `CtkNavbar._render()` 
 function and speed up your application
 ```python
-import CtkNavbar
+from ctknavbar import CTkNavbar
 import customtkinter
 
 app = customtkinter.CTk() 
