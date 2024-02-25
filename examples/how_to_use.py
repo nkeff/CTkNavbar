@@ -1,6 +1,6 @@
 import customtkinter
 
-from ctk_navbar import CTkNavbar
+from ctknavbar import CTkNavbar
 
 customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("dark-blue")
